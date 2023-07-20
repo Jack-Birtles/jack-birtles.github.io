@@ -170,13 +170,13 @@ export const config = {
     image: {
 
       // url: 'https://i.redd.it/niecy4jmlmh81.png', // background image url
-      url: 'glen_coe_custom.png',
+      url: 'https://github.com/Jack-Birtles/voltTab/blob/main/src/background.png?raw=true',
 
       // opacity of background image
       opacity: 1, // range: min:0|max:1
 
       // grayscale of background image
-      grayscale: 0.1, // range: min:0|max:1
+      grayscale: 0, // range: min:0|max:1
 
       // blur of background image
       blur: 0 // range: min:0|max:*
@@ -196,9 +196,12 @@ export const config = {
         // each stop should not be a lower value than the previous stop
         // eg: {..., position: 40}, {..., position: 60}, {..., position: 90},
         // add as many objects as needed
-        { hsla: [220, 80, 18, 0.6], position: 30 /* range: min:0|max:100 */ },
-        { hsla: [240, 85, 25, 0.4], position: 40 },
-        { hsla: [280, 40, 25, 0.1], position: 100 }
+        // { hsla: [220, 80, 18, 0.6], position: 30 /* range: min:0|max:100 */ },
+        // { hsla: [240, 85, 25, 0.4], position: 40 },
+        // { hsla: [280, 40, 25, 0.1], position: 100 }
+        { hsla: [220, 80, 18, 0], position: 30 /* range: min:0|max:100 */ },
+        { hsla: [240, 85, 25, 0], position: 40 },
+        { hsla: [280, 40, 25, 0], position: 100 }
       ]
 
     }
