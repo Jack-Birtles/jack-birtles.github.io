@@ -43,11 +43,11 @@ export const config = {
     newTab: false, // boolean: true|false
 
     // the bookmark panel and group name position and direction the bookmarks flow
-    direction: 'left', // string: left|right
+    direction: 'right', // string: left|right
 
     // bookmark icons show when a bookmark group gains focus or on cursor hover
     // if set to true bookmarks are always shown
-    alwaysVisible: false, // boolean: true|false
+    alwaysVisible: true, // boolean: true|false
 
     // bookmark left side panel size
     // this area contains bookmark group name, description and open all button
@@ -170,16 +170,16 @@ export const config = {
     image: {
 
       // url: 'https://i.redd.it/niecy4jmlmh81.png', // background image url
-      url: 'https://github.com/Jack-Birtles/voltTab/blob/main/src/background.png?raw=true',
+      url: 'https://github.com/Jack-Birtles/voltTab/blob/main/src/colors_120.png?raw=true',
 
       // opacity of background image
-      opacity: 1, // range: min:0|max:1
+      opacity: 0.8, // range: min:0|max:1
 
       // grayscale of background image
       grayscale: 0, // range: min:0|max:1
 
       // blur of background image
-      blur: 0 // range: min:0|max:*
+      blur: 3 // range: min:0|max:*
 
     },
 
