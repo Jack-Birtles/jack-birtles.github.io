@@ -135,6 +135,7 @@ export const config = {
         { icon: 'fa-brands fa-ebay', url: 'https://www.ebay.co.uk/' },
         { icon: 'fa-solid fa-cart-shopping', url: 'https://vi.aliexpress.com/' },
         { icon: 'fa-brands fa-twitch', url: 'https://thepihut.com/' },
+        { icon: 'fa-brands fa-etsy', url: 'https://www.etsy.com/' },
         { letter: 'T', url: 'https://www.tindie.com/' },
       ]
     }, {
