@@ -70,7 +70,7 @@ export const config = {
     iconScaleActive: 1, // range: min:*|max:*
 
     // spacing between bookmarks
-    iconSpacing: 15, // range: min:0|max:*
+    iconSpacing: 16, // range: min:0|max:*
 
     // spacing between bookmark group rows
     groupSpacing: 30, // range: min:0|max:*
