@@ -70,7 +70,7 @@ export const config = {
     iconScaleActive: 1, // range: min:*|max:*
 
     // spacing between bookmarks
-    iconSpacing: 16, // range: min:0|max:*
+    iconSpacing: 15, // range: min:0|max:*
 
     // spacing between bookmark group rows
     groupSpacing: 30, // range: min:0|max:*
@@ -149,6 +149,17 @@ export const config = {
         { icon: 'fa-brands fa-codepen', url: 'https://codepen.io/' },
         { icon: 'fa-brands fa-figma', url: 'https://figma.com/' },
         { icon: 'fa-brands fa-css3-alt', url: 'https://developer.mozilla.org/en-US/docs/Learn/CSS/' },
+      ]
+    }, {
+      name: '3D Printing',
+      description: 'Docs, code & specs',
+      color: { primary: { hsl: [0, 0, 85] }, secondary: { hsl: [206, 74, 66] } },
+      list: [
+        { icon: 'fa-solid fa-p', url: 'https://www.printables.com/@JackBirtles_1022529/collections' },
+        { icon: 'fa-solid fa-t', url: 'https://www.thingiverse.com/myst1cp4nd4/collections' },
+        { icon: 'fa-solid fa-shapes', url: 'https://cad.onshape.com/documents?resourceType=resourceuserowner&nodeId=64abfbcd92d33978466bcce6' },
+        { icon: 'fa-solid fa-b', url: 'https://bambulab.com/en-gb' },
+        { icon: 'fa-solid fa-circle', url: 'https://3dfilaprint.com/' },
       ]
     }]
 
