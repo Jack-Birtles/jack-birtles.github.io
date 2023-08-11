@@ -23,6 +23,13 @@ To build the project use:
 A web ready folder will be created in `/dist/web/`.
 A browser addon/extension ready zip will be created in `/dist/extension/`.
 
+Then copy web folder to root and execute:
+
+-   `git add web && git commit -m "update"`
+
+-   `git subtree push --prefix web origin gh-pages`
+
+
 ## Customise
 
 Edit the [`src/config.js`](src/config.js) file to change the bookmarks, colours and background.

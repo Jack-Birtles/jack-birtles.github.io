@@ -112,7 +112,7 @@ export const config = {
         { icon: 'fa-solid fa-envelope', url: 'https://mail.google.com/' },
         { icon: 'fa-solid fa-download', url: 'https://torrentgalaxy.to/' },
         { icon: 'fa-brands fa-google-drive', url: 'https://drive.google.com/' },
-        { icon: 'fa-solid fa-calendar-day', url: 'https://calendar.google.com/calendar/' },
+        { icon: 'fa-solid fa-terminal', url: 'https://hackaday.io/myFeed' },
       ]
 
     }, {
